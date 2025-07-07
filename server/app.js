@@ -17,7 +17,7 @@ app.use(
     cookie: { secure: false }, // set secure to true if using HTTPS
   })
 );
-const db = "mongodb+srv://priyal:Rolis619@crud.fzrvl.mongodb.net/miniproject?retryWrites=true&w=majority&appName=Crud"
+const db = "your db connection"
 
 
 mongoose
