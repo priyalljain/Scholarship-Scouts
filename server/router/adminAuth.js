@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const session = require("express-session");
-const db = "mongodb+srv://priyal:Rolis619@crud.fzrvl.mongodb.net/miniproject?retryWrites=true&w=majority&appName=Crud"
+const db = "your db connection"
 const Admin = require("../model/adminSchema");
 const requireAdminLogin = async(req, res, next) => {
   try {

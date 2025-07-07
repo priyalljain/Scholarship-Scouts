@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 const router = express.Router();
 const session = require("express-session");
 // const {requireAdminLogin} = require("./adminAuth.js")
-const db = "mongodb+srv://priyal:Rolis619@crud.fzrvl.mongodb.net/miniproject?retryWrites=true&w=majority&appName=Crud"
+const db = "your db connection"
 const Scholarships = require("../model/scholarshipModel.js");
 
 
